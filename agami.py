@@ -1,3 +1,12 @@
+'''
+Write a program to take continuously take input for
+student details from console or html form, the user
+should be able to add multiple student details at once
+The data should be saved in a database. Once the the
+data is saved, the user should be able to edit and
+delete. The delete option should allow for bulk delete
+'''
+
 import mysql.connector
 
 mydb = mysql.connector.connect(
